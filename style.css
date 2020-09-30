@@ -1,0 +1,155 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* styles */
+
+body {
+     background-image: linear-gradient(to right bottom, rgba(145, 57, 57, 0.5), rgba(139, 71, 71, 0.5)), url(./img/bg-intro-desktop.png);
+    background-size: cover;
+    font-size: 1.6rem;
+    background-color: hsl(255, 122, 105);
+}
+
+.high-light {
+    font-weight: 600;
+}
+
+.high-light--red {
+    color: hsl(0, 100%, 74%);
+}
+
+/* form flex containers */
+
+.container-form {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-center {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-left, .form-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+/* form left */
+
+.form-left h1 {
+    font-weight: 700;
+    font-size: 6rem;
+    color: black;
+    letter-spacing: 0px;
+}
+
+.form-left p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* form right */
+
+.form-top {
+    background-color: hsl(64, 85%, 39%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-sign-up {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn {
+   background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+button p, div p {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.form-copy {
+    font-size: 1.4rem;
+}
+
+.form-invalid {
+    position: absolute;
+    right: 5px;
+    top: 45px;
+    display: none;
+    color: hsl(0, 100%, 74%);
+
+    font-size: 1.2rem;
+}
+
+.form-input:focus:invalid + .form-invalid {
+    display: block;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
