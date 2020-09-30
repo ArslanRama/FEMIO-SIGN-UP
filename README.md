@@ -1,3 +1,3 @@
 # FEMIO-SIGN-UP
 
-![mockup-image](/img/femio.png)
+![image](img/femio.png)
