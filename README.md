@@ -1,3 +1,3 @@
 # FEMIO-SIGN-UP
 
-![image](img/femio.png)
+![image](img/FEMIO.png)
