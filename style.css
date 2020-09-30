@@ -15,10 +15,10 @@ html {
 /* styles */
 
 body {
-     background-image: linear-gradient(to right bottom, rgba(145, 57, 57, 0.5), rgba(139, 71, 71, 0.5)), url(./img/bg-intro-desktop.png);
+    background-color: hsl(0, 26%, 47%);
     background-size: cover;
     font-size: 1.6rem;
-    background-color: hsl(255, 122, 105);
+    background-image: url(./img/bg-intro-desktop.png);
 }
 
 .high-light {
